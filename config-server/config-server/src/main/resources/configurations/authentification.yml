@@ -1,0 +1,18 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+
+server:
+  port: 8080
+spring:
+  application:
+    name: authentification
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
