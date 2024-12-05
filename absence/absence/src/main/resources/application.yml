@@ -1,0 +1,7 @@
+# student-service/application.yml
+spring:
+
+  application:
+    name: absence
+  config:
+    import: optional:configserver:http://localhost:8888
